@@ -13,6 +13,11 @@ A fast, reliable and simple Python scraping module
 
 ## How to set up
 
+Simply download the repo and add it to $PATH. You can do this in one of two ways:
+
+1. pip install -e
+2. adding the path to the repo to .bash_profile or .bashrc
+
 
 
 
