@@ -12,7 +12,7 @@ class ConcurrentRequester(object):
     This is a wrapper on python's `requests` library, combining its functionality with
     parallel requests
     """
-    def __init__(self, list_of_urls, incognito=True, n_workers=None, verify=True, futures_timeout=3, requests_sleep=3, attempts=9):
+    def __init__(self, list_of_urls, incognito=True, n_workers=4, verify=True, futures_timeout=3, requests_sleep=3, attempts=9):
         """
         initialises the concurrent requests.
 
